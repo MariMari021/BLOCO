@@ -1,0 +1,179 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway';
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url(Raleway-VariableFont_wght.ttf);
+}
+
+.textarea-nota {
+    border-radius: 38px;
+    padding: 11px 28px;
+    border: 1px black solid;
+    width: 468px;
+    height: 18px;
+}
+
+textarea{
+    border: 1px black solid;
+}
+
+.dividir {
+    padding: 16px 0px;
+    margin: 0px 124px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'raleway';
+    font-weight: 500;
+    font-size: 21px;
+    color: #5c5a5a;
+}
+
+body {
+    background-color: #110B31;
+}
+
+header {
+    background-color: #fff;
+    height: 58px;
+}
+
+.fa-circle-check:before {
+    content: "\f058";
+    font-size: 32px;
+}
+
+.fa-circle-minus:before {
+    content: "\f056";
+    font-size: 32px;
+}
+
+#limpar-notas,
+#adicionar-nota {
+    background-color: #110B31;
+}
+
+.parte1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 436px;
+}
+
+i {
+    margin: 5px 5px;
+}
+
+.h1I {
+    display: flex;
+    align-items: center;
+}
+
+.h1I h1 {
+    font-family: 'raleway';
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.fa-note-sticky:before {
+    content: "\f249";
+    font-size: 26px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#notas-salvas {
+    padding: 33px 0;
+    margin: 0 15%;
+    border-radius: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nota {
+    border: 1px #110B31 solid;
+    padding: 30px 30px;
+    margin: 25px 25px;
+    border-radius: 12px;
+    width: 180px;
+    min-height: 180px;
+    box-shadow: 5px 7px white;
+}
+
+.nota input{
+    background-color: transparent;
+    width: 25px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+
+.nota textarea{
+    border-radius: 38px;
+    padding: 6px 13px 2px;
+}
+
+.nota button{
+    background-color: transparent;
+    width: 25px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nota p{
+    text-align: left;
+    margin-bottom: 10%;
+}
+
+.fa-trash-can:before {
+    content: "\f2ed";
+    font-size: 15px;
+    color: #69caad;
+}
+
+.fa-pen-to-square:before {
+    content: "\f044";
+    font-size: 16px;
+    color: #69caad;
+}
+
+.fa-check:before {
+    content: "\f00c";
+    font-size: 17px;
+    color: #69caad;
+}
+
+ol{
+    color: white;
+    text-align: left;
+    display: grid;
+    justify-content: center;
+}
+
+li{
+    padding: 1.5% 0;
+}
+
+li span{
+    font-weight: 600;
+    font-size: 19px;
+    color: #4bddb1
+}
+
+footer {
+    display: grid;
+    height: 53px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 13%;
+}
